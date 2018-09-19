@@ -24,7 +24,7 @@ public class FacebookScreenShot {
 			File source = ts.getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(source, new File("./Screenshots/facebook.png"));
 			System.out.println("Screenshot taken");
-			driver.quit();
+			driver.quit()
 			
 		}
 	
